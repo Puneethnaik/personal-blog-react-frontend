@@ -1,0 +1,79 @@
+#contact-me-sidebar-social{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 55px;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    z-index: 10;
+  }
+  #contact-me-sidebar-social ul{
+    
+    list-style-type: none;
+    
+  }
+  #contact-me-sidebar-social ul li{
+  /*   border: 1px solid black; */
+    margin-left: 1%;
+    height: 55px;
+    width: 100%;
+    position:relative;
+    transition: width .3s;
+    opacity: 0.3;
+  }
+  #contact-me-sidebar-social ul li:hover{
+  /*   border: 1px solid black; */
+    width: 150%;
+    opacity:1;
+  }
+  
+  
+  #contact-me-sidebar-social ul a{
+    text-decoration: none;
+    color: white;
+  /*   position: relative; */
+  }
+  #contact-me-sidebar-facebook-icon{
+    background: #4868ad;
+  }
+  
+  #contact-me-sidebar-linkedin-icon{
+    background: #0077b5;
+  }
+  
+  #contact-me-sidebar-instagram-icon{
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
+  }
+  
+  #contact-me-sidebar-facebook-icon div{
+    right: 5px;
+  }
+  
+  #contact-me-sidebar-linkedin-icon div{
+    right: 10px;
+  }
+  
+  #contact-me-sidebar-twitter-icon div{
+    right: 10px;
+  }
+  
+  #contact-me-sidebar-instagram-icon div{
+    right: 10px;
+  }
+  .contact-me-sidebar-social-icon{
+    position: absolute;
+  /*   border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+    top: 7px;
+  }
+  .contact-me-sidebar-social-icon span i{
+    font-size: 40px;
+  /*   border: 1px solid black; */
+  /*   position: absolute; */
+    
+  }
+  
+  #contact-me-sidebar-twitter-icon{
+    background: #3299FF
+  }
