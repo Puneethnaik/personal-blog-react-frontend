@@ -1,0 +1,42 @@
+.contact-me-horizontal-bar-container {
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 28%;
+    height: 50px;
+    /* border: 1px solid black; */
+    box-shadow: silver;
+}
+
+.social-icon {
+    margin-left: 15px;
+    display:inline-block;
+    width: 50px;
+    height: inherit;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+#facebook-icon{
+    background: #4868ad;
+}
+  
+#linkedin-icon{
+    background: #0077b5;
+}
+
+#instagram-icon{
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
+}
+
+#twitter-icon{
+    background: #3299FF;
+}
+
+.social-icon i {
+    color: white;
+}
